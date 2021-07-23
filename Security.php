@@ -2,6 +2,7 @@
 
 class Security{
 
+    // general function that checks that the inputs are fulfilled
     public static function inputNotEmpty($champs){
 
         if (isset($champs['submit'])) {

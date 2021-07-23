@@ -1,11 +1,13 @@
 <?php 
 
+// choose the page according to the value entered in parameter
 class Routeur{
 
     public static function route($route){
 
         if ($_GET['page'] === "add") {
 
+            // before inserting we check with the function and if it returns true then we insert
             if (Security::inputNotEmpty($_POST)) {
                 $insert = Database::insert($_POST["nom"], $_POST["pseudo"]);
                 header("Location: index.php?page=user");

@@ -1,10 +1,3 @@
-<?php 
-
-    echo "PAGE CONTACT";
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Page Contact</h1>
+    
+    <!-- send a key with a value -->
     <a href="Index.php?page=home">PAGE HOME</a>
 </body>
 </html>

@@ -1,5 +1,6 @@
 <?php 
 
+    // display all users and button modifiy/delete
     $selectAllUsers = Database::selectAll();
 
     foreach ($selectAllUsers as $selectAllUsers) {
